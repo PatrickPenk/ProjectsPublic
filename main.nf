@@ -1,7 +1,7 @@
 #!/usr/bin/env nextflow
 
 params.accession_id = "M21012"
-params.input_dir = "raw_data/"
+params.input_dir = "hepatitis/"
 params.output_combined_file = "combined.fasta"
 params.mafft_output = "combined_aligned.fasta"
 params.trimal_output = "combined_aligned_trimmed.fasta"
