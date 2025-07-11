@@ -20,23 +20,23 @@ process FETCH_FASTA {
 
     script:
     """
-    esearch -db nucleotide -query "${accession_id}" | efetch fasta > "${accession_id}.fasta"
+    esearch -db nucleotide -query "${accession_id}" | efetch -format fasta > "${accession_id}.fasta"
     """
 }
-
 
 // ================== Combine files ===================== //
 process COMBINE_SEQS {
 
     input:
-    path input_files
+    path input_directory_path 
+    path reference_fasta_file
 
     output:
     path "${params.output_combined_file}", emit: combined_output
 
     script:
     """
-    cat "${input_files}"/*.fasta > "${params.output_combined_file}"
+    cat "${input_directory_path}"/*.fasta "${reference_fasta_file}" > "${params.output_combined_file}"
     """
 }
 
@@ -80,11 +80,11 @@ process TRIMAL_ALIGNMENT {
 
 workflow {
     FETCH_FASTA(params.accession_id)
-        Channel
+    
+    def input_dir_channel = Channel
         .fromPath(params.input_dir, type: 'dir')
-        .set { input_dir_channel }
 
-    COMBINE_SEQS(input_dir_channel)
+    COMBINE_SEQS(input_dir_channel, FETCH_FASTA.out.sequence_fasta)
 
     ALIGN_MAFFT(COMBINE_SEQS.out.combined_output)
     ALIGN_MAFFT.out.aligned_fasta.view { "MAFFT alignment complete: $it" }

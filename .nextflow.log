@@ -1,89 +1,89 @@
-Jul-11 11:06:10.159 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --accession_id M21012
-Jul-11 11:06:10.295 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.04.6
-Jul-11 11:06:10.345 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/patrick_bioinf/.nextflow/plugins; core-plugins: nf-amazon@2.15.0,nf-azure@1.16.0,nf-cloudcache@0.4.3,nf-codecommit@0.2.3,nf-console@1.2.1,nf-google@1.21.1,nf-k8s@1.0.0,nf-tower@1.11.4,nf-wave@1.12.1
-Jul-11 11:06:10.380 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
-Jul-11 11:06:10.381 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
-Jul-11 11:06:10.385 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
-Jul-11 11:06:10.402 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
-Jul-11 11:06:10.431 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/patrick_bioinf/pipeline_test/nextflow.config
-Jul-11 11:06:10.435 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/patrick_bioinf/pipeline_test/nextflow.config
-Jul-11 11:06:10.488 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/patrick_bioinf/.nextflow/secrets/store.json
-Jul-11 11:06:10.507 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@31fc71ab] - activable => nextflow.secret.LocalSecretsProvider@31fc71ab
-Jul-11 11:06:10.524 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
-Jul-11 11:06:10.996 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
-Jul-11 11:06:11.016 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [determined_lagrange] DSL2 - revision: c5b537fa67
-Jul-11 11:06:11.018 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
-Jul-11 11:06:11.018 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
-Jul-11 11:06:11.101 [main] DEBUG nextflow.Session - Session UUID: a53189cf-c1fa-4665-912d-efcbb20016ec
-Jul-11 11:06:11.101 [main] DEBUG nextflow.Session - Run name: determined_lagrange
-Jul-11 11:06:11.102 [main] DEBUG nextflow.Session - Executor pool size: 6
-Jul-11 11:06:11.112 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
-Jul-11 11:06:11.119 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=18; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
-Jul-11 11:06:11.153 [main] DEBUG nextflow.cli.CmdRun - 
+Jul-11 14:32:05.636 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --accession_id M21012
+Jul-11 14:32:05.779 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.04.6
+Jul-11 14:32:05.806 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/patrick_bioinf/.nextflow/plugins; core-plugins: nf-amazon@2.15.0,nf-azure@1.16.0,nf-cloudcache@0.4.3,nf-codecommit@0.2.3,nf-console@1.2.1,nf-google@1.21.1,nf-k8s@1.0.0,nf-tower@1.11.4,nf-wave@1.12.1
+Jul-11 14:32:05.836 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jul-11 14:32:05.837 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jul-11 14:32:05.841 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Jul-11 14:32:05.855 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jul-11 14:32:05.885 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/patrick_bioinf/pipeline_test/nextflow.config
+Jul-11 14:32:05.889 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/patrick_bioinf/pipeline_test/nextflow.config
+Jul-11 14:32:05.930 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/patrick_bioinf/.nextflow/secrets/store.json
+Jul-11 14:32:05.934 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@5dc3fcb7] - activable => nextflow.secret.LocalSecretsProvider@5dc3fcb7
+Jul-11 14:32:05.952 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jul-11 14:32:06.479 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Jul-11 14:32:06.493 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [infallible_bernard] DSL2 - revision: 8a172816d2
+Jul-11 14:32:06.495 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jul-11 14:32:06.495 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jul-11 14:32:06.554 [main] DEBUG nextflow.Session - Session UUID: 4a69ee5f-6520-43dc-9f1e-20f9ab279995
+Jul-11 14:32:06.554 [main] DEBUG nextflow.Session - Run name: infallible_bernard
+Jul-11 14:32:06.555 [main] DEBUG nextflow.Session - Executor pool size: 6
+Jul-11 14:32:06.563 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jul-11 14:32:06.571 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=18; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jul-11 14:32:06.592 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 25.04.6 build 5954
   Created: 01-07-2025 11:27 UTC (13:27 CEST)
   System: Linux 6.6.87.2-microsoft-standard-WSL2
   Runtime: Groovy 4.0.26 on OpenJDK 64-Bit Server VM 21.0.7-internal-adhoc.conda.src
   Encoding: UTF-8 (UTF-8)
-  Process: 2403@DESKTOP-7JHUB10 [127.0.1.1]
-  CPUs: 6 - Mem: 7.7 GB (5.1 GB) - Swap: 2 GB (2 GB)
-Jul-11 11:06:11.175 [main] DEBUG nextflow.Session - Work-dir: /home/patrick_bioinf/pipeline_test/work [ext2/ext3]
-Jul-11 11:06:11.176 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/patrick_bioinf/pipeline_test/bin
-Jul-11 11:06:11.191 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
-Jul-11 11:06:11.203 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
-Jul-11 11:06:11.210 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
-Jul-11 11:06:11.241 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
-Jul-11 11:06:11.253 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 7; maxThreads: 1000
-Jul-11 11:06:11.341 [main] DEBUG nextflow.Session - Session start
-Jul-11 11:06:11.861 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Jul-11 11:06:12.000 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-11 11:06:12.001 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-11 11:06:12.009 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
-Jul-11 11:06:12.018 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=6; memory=7.7 GB; capacity=6; pollInterval=100ms; dumpInterval=5m
-Jul-11 11:06:12.023 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
-Jul-11 11:06:12.055 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'FETCH_FASTA': maxForks=0; fair=false; array=0
-Jul-11 11:06:12.142 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-11 11:06:12.142 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-11 11:06:12.143 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'COMBINE_SEQS': maxForks=0; fair=false; array=0
-Jul-11 11:06:12.151 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-11 11:06:12.152 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-11 11:06:12.153 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'ALIGN_MAFFT': maxForks=0; fair=false; array=0
-Jul-11 11:06:12.187 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-11 11:06:12.188 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-11 11:06:12.189 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'TRIMAL_ALIGNMENT': maxForks=0; fair=false; array=0
-Jul-11 11:06:12.194 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: ALIGN_MAFFT, TRIMAL_ALIGNMENT, COMBINE_SEQS, FETCH_FASTA
-Jul-11 11:06:12.197 [main] DEBUG nextflow.Session - Igniting dataflow network (5)
-Jul-11 11:06:12.198 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > FETCH_FASTA
-Jul-11 11:06:12.206 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > COMBINE_SEQS
-Jul-11 11:06:12.209 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ALIGN_MAFFT
-Jul-11 11:06:12.210 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > TRIMAL_ALIGNMENT
-Jul-11 11:06:12.211 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
-  Script_2f2761287576fd05: /home/patrick_bioinf/pipeline_test/main.nf
-Jul-11 11:06:12.212 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
-Jul-11 11:06:12.212 [main] DEBUG nextflow.Session - Session await
-Jul-11 11:06:12.304 [Actor Thread 3] DEBUG nextflow.conda.CondaCache - conda found local env for environment=bioconda::entrez-direct=24.0; path=/home/patrick_bioinf/pipeline_test/conda/env-d4a549ab39acddb753524a98395a0550
-Jul-11 11:06:12.440 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-11 11:06:12.444 [Task submitter] INFO  nextflow.Session - [d5/361248] Submitted process > FETCH_FASTA
-Jul-11 11:06:12.461 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-11 11:06:12.462 [Task submitter] INFO  nextflow.Session - [b4/933c2e] Submitted process > COMBINE_SEQS (1)
-Jul-11 11:06:12.493 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: COMBINE_SEQS (1); status: COMPLETED; exit: 0; error: -; workDir: /home/patrick_bioinf/pipeline_test/work/b4/933c2e3845dc728dd6b4fe24985b0f]
-Jul-11 11:06:12.494 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=18; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
-Jul-11 11:06:12.523 [Actor Thread 3] DEBUG nextflow.conda.CondaCache - conda found local env for environment=bioconda::mafft=7.525; path=/home/patrick_bioinf/pipeline_test/conda/env-5ca2d9ea20a5d66997b910386eefd121
-Jul-11 11:06:12.533 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-11 11:06:12.534 [Task submitter] INFO  nextflow.Session - [8e/6ad522] Submitted process > ALIGN_MAFFT (1)
-Jul-11 11:06:14.477 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: ALIGN_MAFFT (1); status: COMPLETED; exit: 0; error: -; workDir: /home/patrick_bioinf/pipeline_test/work/8e/6ad522c0305340f1fa36a1a6a80853]
-Jul-11 11:06:14.493 [Actor Thread 7] DEBUG nextflow.conda.CondaCache - conda found local env for environment=bioconda::trimal=1.5.0; path=/home/patrick_bioinf/pipeline_test/conda/env-5c3d2eddcda9f477b9ef8bcac93605c2
-Jul-11 11:06:14.500 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-11 11:06:14.501 [Task submitter] INFO  nextflow.Session - [eb/4e2bc8] Submitted process > TRIMAL_ALIGNMENT (1)
-Jul-11 11:06:15.806 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: TRIMAL_ALIGNMENT (1); status: COMPLETED; exit: 0; error: -; workDir: /home/patrick_bioinf/pipeline_test/work/eb/4e2bc8e200aafa2a3e2c3ff6485bff]
-Jul-11 11:06:15.827 [TaskFinalizer-3] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=18; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
-Jul-11 11:06:17.382 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: FETCH_FASTA; status: COMPLETED; exit: 0; error: -; workDir: /home/patrick_bioinf/pipeline_test/work/d5/3612487f049dce68efd26ff91d0a2a]
-Jul-11 11:06:17.385 [main] DEBUG nextflow.Session - Session await > all processes finished
-Jul-11 11:06:17.484 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
-Jul-11 11:06:17.485 [main] DEBUG nextflow.Session - Session await > all barriers passed
-Jul-11 11:06:17.487 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
-Jul-11 11:06:17.488 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
-Jul-11 11:06:17.497 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=4; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=8s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
-Jul-11 11:06:17.662 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
-Jul-11 11:06:17.682 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
-Jul-11 11:06:17.683 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
+  Process: 23262@DESKTOP-7JHUB10 [127.0.1.1]
+  CPUs: 6 - Mem: 7.7 GB (4.9 GB) - Swap: 2 GB (2 GB)
+Jul-11 14:32:06.616 [main] DEBUG nextflow.Session - Work-dir: /home/patrick_bioinf/pipeline_test/work [ext2/ext3]
+Jul-11 14:32:06.617 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/patrick_bioinf/pipeline_test/bin
+Jul-11 14:32:06.630 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jul-11 14:32:06.641 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jul-11 14:32:06.648 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+Jul-11 14:32:06.678 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jul-11 14:32:06.688 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 7; maxThreads: 1000
+Jul-11 14:32:06.749 [main] DEBUG nextflow.Session - Session start
+Jul-11 14:32:07.160 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jul-11 14:32:07.292 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-11 14:32:07.293 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-11 14:32:07.301 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jul-11 14:32:07.309 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=6; memory=7.7 GB; capacity=6; pollInterval=100ms; dumpInterval=5m
+Jul-11 14:32:07.313 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Jul-11 14:32:07.345 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'FETCH_FASTA': maxForks=0; fair=false; array=0
+Jul-11 14:32:07.431 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-11 14:32:07.431 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-11 14:32:07.433 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'COMBINE_SEQS': maxForks=0; fair=false; array=0
+Jul-11 14:32:07.439 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-11 14:32:07.440 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-11 14:32:07.440 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'ALIGN_MAFFT': maxForks=0; fair=false; array=0
+Jul-11 14:32:07.471 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-11 14:32:07.471 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-11 14:32:07.472 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'TRIMAL_ALIGNMENT': maxForks=0; fair=false; array=0
+Jul-11 14:32:07.477 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: ALIGN_MAFFT, TRIMAL_ALIGNMENT, COMBINE_SEQS, FETCH_FASTA
+Jul-11 14:32:07.480 [main] DEBUG nextflow.Session - Igniting dataflow network (5)
+Jul-11 14:32:07.480 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > FETCH_FASTA
+Jul-11 14:32:07.487 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > COMBINE_SEQS
+Jul-11 14:32:07.488 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ALIGN_MAFFT
+Jul-11 14:32:07.488 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > TRIMAL_ALIGNMENT
+Jul-11 14:32:07.490 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_63b020e9723ad6b5: /home/patrick_bioinf/pipeline_test/main.nf
+Jul-11 14:32:07.490 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jul-11 14:32:07.490 [main] DEBUG nextflow.Session - Session await
+Jul-11 14:32:07.554 [Actor Thread 5] DEBUG nextflow.conda.CondaCache - conda found local env for environment=bioconda::entrez-direct=24.0; path=/home/patrick_bioinf/pipeline_test/conda/env-d4a549ab39acddb753524a98395a0550
+Jul-11 14:32:07.651 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-11 14:32:07.654 [Task submitter] INFO  nextflow.Session - [ac/5e10e7] Submitted process > FETCH_FASTA
+Jul-11 14:32:10.514 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: FETCH_FASTA; status: COMPLETED; exit: 0; error: -; workDir: /home/patrick_bioinf/pipeline_test/work/ac/5e10e7bd306313d158ccf4b640b4c3]
+Jul-11 14:32:10.519 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=18; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jul-11 14:32:10.668 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-11 14:32:10.670 [Task submitter] INFO  nextflow.Session - [cb/0df897] Submitted process > COMBINE_SEQS (1)
+Jul-11 14:32:10.695 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: COMBINE_SEQS (1); status: COMPLETED; exit: 0; error: -; workDir: /home/patrick_bioinf/pipeline_test/work/cb/0df897b1e5d959eb2af6c92944cc76]
+Jul-11 14:32:10.706 [Actor Thread 6] DEBUG nextflow.conda.CondaCache - conda found local env for environment=bioconda::mafft=7.525; path=/home/patrick_bioinf/pipeline_test/conda/env-5ca2d9ea20a5d66997b910386eefd121
+Jul-11 14:32:10.714 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-11 14:32:10.715 [Task submitter] INFO  nextflow.Session - [54/28c466] Submitted process > ALIGN_MAFFT (1)
+Jul-11 14:32:12.681 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: ALIGN_MAFFT (1); status: COMPLETED; exit: 0; error: -; workDir: /home/patrick_bioinf/pipeline_test/work/54/28c466ef0b673bfed71f4b95bec19b]
+Jul-11 14:32:12.698 [Actor Thread 7] DEBUG nextflow.conda.CondaCache - conda found local env for environment=bioconda::trimal=1.5.0; path=/home/patrick_bioinf/pipeline_test/conda/env-5c3d2eddcda9f477b9ef8bcac93605c2
+Jul-11 14:32:12.706 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-11 14:32:12.707 [Task submitter] INFO  nextflow.Session - [e2/015b96] Submitted process > TRIMAL_ALIGNMENT (1)
+Jul-11 14:32:14.058 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: TRIMAL_ALIGNMENT (1); status: COMPLETED; exit: 0; error: -; workDir: /home/patrick_bioinf/pipeline_test/work/e2/015b964ed009737dc517a8ac2a6a2c]
+Jul-11 14:32:14.077 [TaskFinalizer-4] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=18; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jul-11 14:32:14.079 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jul-11 14:32:14.159 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Jul-11 14:32:14.160 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jul-11 14:32:14.162 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Jul-11 14:32:14.163 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Jul-11 14:32:14.171 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=4; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=6s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+Jul-11 14:32:14.210 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jul-11 14:32:14.233 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Jul-11 14:32:14.234 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

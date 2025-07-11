@@ -33,3 +33,17 @@
 2025-07-11 09:55:53	5.1s	elated_descartes	OK	d775359d0cd8d51e1c5dfd4dd06bd661	f95ed64e-b5f5-4aa2-bfcc-4fc174931de9	nextflow run hepa_pipe.nf --accession_id M21012
 2025-07-11 09:59:21	6.9s	ridiculous_cori	OK	d775359d0cd8d51e1c5dfd4dd06bd661	2270d435-6060-4208-ac47-7f02150cbfa3	nextflow run hepa_pipe.nf --accession_id M21012
 2025-07-11 11:06:11	6.7s	determined_lagrange	OK	c5b537fa675d9fe8aa44664a25acb8a4	a53189cf-c1fa-4665-912d-efcbb20016ec	nextflow run main.nf --accession_id M21012
+2025-07-11 11:08:59	20.8s	kickass_boltzmann	ERR	c3393807924bdd07fadefa829db4b87b	098d76f0-5e41-4995-89d6-6c36461d38bc	nextflow run main.nf --accession_id M21012
+2025-07-11 11:09:35	5.7s	chaotic_fermat	OK	c5b537fa675d9fe8aa44664a25acb8a4	26ba57d2-ce37-4ea7-8750-d9476d253c5d	nextflow run main.nf --accession_id M21012
+2025-07-11 11:17:18	7.3s	berserk_torvalds	OK	c5b537fa675d9fe8aa44664a25acb8a4	c422898c-ccb4-478b-a3d4-9506299fbbe6	nextflow run main.nf --accession_id M21012
+2025-07-11 11:41:12	6.8s	confident_einstein	OK	c5b537fa675d9fe8aa44664a25acb8a4	9d20e27a-f3c7-4ca6-be17-2e519ec73175	nextflow run main.nf --accession_id M21012
+2025-07-11 13:53:57	8.2s	high_waddington	OK	c5b537fa675d9fe8aa44664a25acb8a4	28b345b7-ff1d-4dbf-b209-816270ae0084	nextflow run main.nf --accession_id M21012
+2025-07-11 14:03:52	6.8s	disturbed_hirsch	ERR	c752d5e98a478d436878099948d79de2	d88d71f9-3e6b-4d7c-a253-5333bfadcacb	nextflow run main.nf --accession_id M21012
+2025-07-11 14:05:44	6s	zen_allen	ERR	8afa83152f244a917703e5c230ff70b9	aea32198-aae5-4fcd-92cf-6d9bc7176b53	nextflow run main.nf --accession_id M21012
+2025-07-11 14:06:28	6.6s	sleepy_pasteur	ERR	89704cf339c7d1467d50ed86e9f1e3e2	6a8348ea-58b4-4084-b417-d45741ff365b	nextflow run main.nf --accession_id M21012
+2025-07-11 14:15:12	1.5s	tiny_kirch	ERR	0e65d13f00cf278302779c4fc7ac45b3	95608b46-7f49-45df-ab0b-d47901803374	nextflow run main.nf --accession_id M21012
+2025-07-11 14:15:19	2s	elated_majorana	ERR	dfe300ecab54e2328d8c6db1f21f0072	1bbcea28-2a62-4ee3-8f73-b4b61fbd9cdf	nextflow run main.nf --accession_id M21012
+2025-07-11 14:18:16	7.5s	shrivelled_plateau	ERR	a6dd4008829448a5c348d19d8ec9a161	e5e02d2d-8fcc-48b5-b448-4a5c5d7c20ef	nextflow run main.nf --accession_id M21012
+2025-07-11 14:22:37	5.8s	dreamy_gilbert	OK	c5b537fa675d9fe8aa44664a25acb8a4	6f826c10-583d-4b09-9a37-97576867552c	nextflow run main.nf --accession_id M21012
+2025-07-11 14:27:41	5.9s	irreverent_davinci	OK	d2f023f230979e267a4218e72ad55df7	74a5a522-279f-4937-9a9d-ac741dd0a1f1	nextflow run main.nf --accession_id M21012
+2025-07-11 14:32:06	8.2s	infallible_bernard	OK	8a172816d27558706f7b9f3192550837	4a69ee5f-6520-43dc-9f1e-20f9ab279995	nextflow run main.nf --accession_id M21012
