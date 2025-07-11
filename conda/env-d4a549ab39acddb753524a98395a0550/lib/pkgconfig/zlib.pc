@@ -1,0 +1,13 @@
+prefix=/home/patrick_bioinf/pipeline_test/conda/env-d4a549ab39acddb753524a98395a0550
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

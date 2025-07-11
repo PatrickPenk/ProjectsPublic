@@ -1,0 +1,11 @@
+prefix=/home/patrick_bioinf/pipeline_test/conda/env-5ca2d9ea20a5d66997b910386eefd121
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: mpfr
+URL: https://www.mpfr.org/
+Description: C library for multiple-precision floating-point computations
+Version: 4.2.1
+Libs: -L${libdir} -lmpfr -lgmp
+Cflags: -I${includedir}

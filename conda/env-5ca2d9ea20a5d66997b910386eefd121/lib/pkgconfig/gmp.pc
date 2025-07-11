@@ -1,0 +1,11 @@
+prefix=/home/patrick_bioinf/pipeline_test/conda/env-5ca2d9ea20a5d66997b910386eefd121
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: GNU MP
+Description: GNU Multiple Precision Arithmetic Library
+URL: https://gmplib.org
+Version: 6.3.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lgmp

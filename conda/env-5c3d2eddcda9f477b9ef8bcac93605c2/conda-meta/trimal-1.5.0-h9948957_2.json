@@ -1,0 +1,58 @@
+{
+  "build": "h9948957_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc >=13",
+    "libstdcxx >=13"
+  ],
+  "extracted_package_dir": "/home/patrick_bioinf/WGS/miniconda/pkgs/trimal-1.5.0-h9948957_2",
+  "files": [
+    "bin/readal",
+    "bin/statal",
+    "bin/trimal"
+  ],
+  "fn": "trimal-1.5.0-h9948957_2.tar.bz2",
+  "license": "GPL-3.0-or-later",
+  "link": {
+    "source": "/home/patrick_bioinf/WGS/miniconda/pkgs/trimal-1.5.0-h9948957_2",
+    "type": 1
+  },
+  "md5": "a4324d1477de960945ab29f954158947",
+  "name": "trimal",
+  "package_tarball_full_path": "/home/patrick_bioinf/WGS/miniconda/pkgs/trimal-1.5.0-h9948957_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/readal",
+        "path_type": "hardlink",
+        "sha256": "0eae7c8ff6d7adbcd85a13b5e806c4e46a13d09d3f1beae8ef15e1c0abdd8e8c",
+        "sha256_in_prefix": "0eae7c8ff6d7adbcd85a13b5e806c4e46a13d09d3f1beae8ef15e1c0abdd8e8c",
+        "size_in_bytes": 251280
+      },
+      {
+        "_path": "bin/statal",
+        "path_type": "hardlink",
+        "sha256": "b72852887e41a2a7b73e6e5ae0a981051e918e4ed561fb7ddf9ffbe5fb9e5165",
+        "sha256_in_prefix": "b72852887e41a2a7b73e6e5ae0a981051e918e4ed561fb7ddf9ffbe5fb9e5165",
+        "size_in_bytes": 259760
+      },
+      {
+        "_path": "bin/trimal",
+        "path_type": "hardlink",
+        "sha256": "bb7d03aecabe3f26b772b490b50b6a6452e6435daf40008c4c07c4cf9f74f559",
+        "sha256_in_prefix": "bb7d03aecabe3f26b772b490b50b6a6452e6435daf40008c4c07c4cf9f74f559",
+        "size_in_bytes": 313152
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bioconda::trimal=1.5.0",
+  "sha256": "05fe24e8a05b8303021d6e7451c7c10cfc063942bc96c59d2ed34f343ef0a234",
+  "size": 216543,
+  "subdir": "linux-64",
+  "timestamp": 1733954902000,
+  "url": "https://conda.anaconda.org/bioconda/linux-64/trimal-1.5.0-h9948957_2.tar.bz2",
+  "version": "1.5.0"
+}

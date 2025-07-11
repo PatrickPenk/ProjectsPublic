@@ -1,0 +1,10 @@
+==> 2025-07-11 09:47:35 <==
+# cmd: /home/patrick_bioinf/WGS/miniconda/bin/conda create --yes --quiet --prefix /home/patrick_bioinf/pipeline_test/conda/env-5c3d2eddcda9f477b9ef8bcac93605c2 bioconda::trimal=1.5.0
+# conda version: 25.5.1
++bioconda/linux-64::trimal-1.5.0-h9948957_2
++conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
++conda-forge/linux-64::_openmp_mutex-4.5-2_gnu
++conda-forge/linux-64::libgcc-15.1.0-h767d61c_3
++conda-forge/linux-64::libgomp-15.1.0-h767d61c_3
++conda-forge/linux-64::libstdcxx-15.1.0-h8f9b012_3
+# update specs: ['bioconda::trimal=1.5.0']
